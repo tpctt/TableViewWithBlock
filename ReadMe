@@ -1,11 +1,10 @@
-TableViewWithBlock  的代码
+TableViewWithBlock 使用 block 方式设置 table 的 datasource / delegate的代码
 
 引入
 ````
-pod ‘TableViewWithBlock’
-````
+pod 'TableViewWithBlock'
+```
 使用
-
 ````
 -(void)initTableViewDataSourceAndDelegate:(UITableViewNumberOfRowsInSectionBlock)numOfRowsBlock
                  setCellForIndexPathBlock:(UITableViewCellForRowAtIndexPathBlock)cellForIndexPathBlock
